@@ -7,12 +7,12 @@ gem 'sprockets', '2.11.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'pg'
-
+gem 'bcrypt-ruby', '3.1.2'
 
 
 gem 'factory_girl_rails'
 
-gem 'protected_attributes'
+#gem 'protected_attributes'
 
 
 group :development, :test do
