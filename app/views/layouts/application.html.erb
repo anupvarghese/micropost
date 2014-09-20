@@ -17,6 +17,7 @@
       <%= yield %>
       <%= render 'layouts/footer' %>
       <%= debug(params) if Rails.env.development? %>
+      <%= debug(cookies[:remember_token]) if signed_in? %>
     </div>
   </body>
 </html>
